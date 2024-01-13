@@ -1,0 +1,114 @@
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+
+.bodyContainer {
+  background: #233142;
+  font-size: 13px;
+  color: #333333;
+  line-height: 1;
+}
+.appcontainer {
+  font-family: sans-serif;
+}
+.headerContainer {
+  height: 40px;
+  margin: 8px;
+}
+
+.airCallBodyContainer {
+  min-height: calc(100vh - 155px);
+}
+.callLognavBar div {
+  cursor: pointer;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.callLognavBar div:nth-child(1) {
+  background-color: white;
+  color: #32cd32;
+}
+.callLognavBar div:nth-child(2) {
+  background-color: white;
+  color: #e34234;
+}
+.callLognavBar div:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.activeArchives {
+  background-color: #e34234 !important;
+  color: white !important;
+}
+.activeInbox {
+  background-color: #32cd32 !important;
+  color: white !important;
+}
+.callLogsCardContainer {
+  max-height: calc(100vh - 245px);
+  overflow-y: auto;
+}
+.callCard {
+  cursor: pointer;
+  min-height: 75px;
+  font-weight: 600;
+}
+.callCard:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.missedCall {
+  color: red;
+  font-size: 20px;
+}
+.regularCall {
+  color: black;
+  font-size: 20px;
+}
+
+.archiveLogo:hover {
+  color: red;
+}
+.detailsSection p {
+  margin-bottom: 0 !important;
+  padding-bottom: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.callDetailsTag {
+  font-size: 16px;
+}
+.archiveUnarchiveTag {
+  cursor: pointer;
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  z-index: 99;
+  background-color: red;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+}
+.archiveUnarchiveTag:hover {
+  background-color: #922724;
+}
+
+.detailsSection {
+  border-color: grey;
+}
+
+.shimmerCard {
+  height: 75px;
+}
